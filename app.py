@@ -2,6 +2,7 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 import pickle
+import sklearn 
 
 Smoker = pickle.load(open('model.pkl', 'rb'))
 
